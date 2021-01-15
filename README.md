@@ -13,4 +13,5 @@ Currently contains:
  - Structural:
 	- Adapter (std::stack, Classig, Caching Adapter)
 	- Bridge (Classic, PImpl)
+	- Composite
 
