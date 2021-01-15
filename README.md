@@ -13,5 +13,6 @@ Currently contains:
  - Structural:
 	- Adapter (std::stack, Classig, Caching Adapter)
 	- Bridge (Classic, PImpl)
-	- Composite
+	- Composite (Composite Pattern, use-cases)
+	- Decorator (Function Decorator, Wrapping Decorator, Mixin Inheritance)
 
