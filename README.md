@@ -8,4 +8,6 @@ A multitude of design patterns implemented in modern C++. Currently contains:
 	- Factory (Factory Method, Inner Factory, Abstract Factory, Functional Factory)
 	- Prototype (Classic Prototype, Prototype Factory, Boost.Serialization use-case)
 	- Singleton (Naive Singleton, Meyers Singleton)
+ - Structural:
+	- Adapter (std::stack, Classig, Caching Adapter)
 
