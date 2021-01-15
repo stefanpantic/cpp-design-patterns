@@ -1,6 +1,8 @@
 # C++ Design Patterns
 
-A multitude of design patterns implemented in modern C++. Currently contains:
+A multitude of design patterns implemented in modern C++. Structs are used in many places instead of classes to avoid
+dealing with private/public members and just focus on the pattern itself.
+Currently contains:
  - Overview and examples of SOLID principles
  - The Maybe monad
  - Creational patterns:
@@ -10,4 +12,5 @@ A multitude of design patterns implemented in modern C++. Currently contains:
 	- Singleton (Naive Singleton, Meyers Singleton)
  - Structural:
 	- Adapter (std::stack, Classig, Caching Adapter)
+	- Bridge (Classic, PImpl)
 
