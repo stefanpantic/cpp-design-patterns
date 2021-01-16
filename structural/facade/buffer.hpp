@@ -10,6 +10,7 @@
 
 struct IBuffer
 {
+	virtual ~IBuffer() = default;
 	virtual void render() const = 0;
 };
 
