@@ -15,7 +15,7 @@ Currently contains:
 	- **Factory (Factory Method, Inner Factory, Abstract Factory, Functional Factory)** - A separate component solely responsible for wholesale (not piecewise) creation of objects.
 	- **Prototype (Classic Prototype, Prototype Factory, Boost.Serialization use-case)** - A partially or fully initialized object that you copy (clone) and make use of.
 	- **Singleton (Naive Singleton, Meyers Singleton)** - A component which is instantiated only once.
- - Structural:
+ - **Structural** patterns:
 	- **Adapter (std::stack, Classig, Caching Adapter)** - A construct which adapts an existing interface X to conform to the required interface Y.
 	- **Bridge (Classic, PImpl)** - A mechanism that decouples an interface (hierarchy) from an implementation (hierarchy).
 	- **Composite (Composite Pattern, use-cases)** - A mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner.
