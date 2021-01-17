@@ -26,5 +26,8 @@ Currently contains:
 	- **Proxy** - A class that functions as an interface to a particular resource. That resource may be remote, expensive to construct, may require logging or some other functionality.
  - **Behavioral** patterns:
  	- **Chain of Responsibility (Pointer Chain, Centralized Broker)** - A chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain.
-	- **Command (Classic, Composite)** - An object which represents an instruction to perform a particular action. Contains all information necessary for the action to be taken.
+	- **Command (Classic, Undo/Redo, Composite)** - An object which represents an instruction to perform a particular action. Contains all information necessary for the action to be taken.
+	- **Interpreter** - A component that processes structured (text) data. It does so by turning it into separate lexical tokens (lexing) and then interpreting sequences of said tokens (parsing).
+	- **Iterator (STL iterators, Iterator, Boost.IteratorFacade)** - An object that facilitates the traversal of a data structure.
+	- **Memento (Classic, Undo/Redo)** - A token/handle representing the system state. Lets us roll back to the state when the token was generated. May or may not directly expose state information.
 
