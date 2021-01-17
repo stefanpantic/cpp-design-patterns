@@ -6,9 +6,9 @@ Currently contains:
  - Overview and examples of **SOLID** principles:
  	1. **Single-responsibility principle** - A class should only have a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 	2. **Open-closed principle** - "Software entities ... should be open for extension, but closed for modification."
-	3. **Liskov substitution principle** - "Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." 
+	3. **Liskov substitution principle** - "Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
 	4. **Interface segregation principle** - "Many client-specific interfaces are better than one general-purpose interface."
-	5. **Dependency inversion principle** - One should "depend upon abstractions, [not] concretions." 
+	5. **Dependency inversion principle** - One should "depend upon abstractions, [not] concretions."
  - The **Maybe** monad
  - **Creational** patterns:
  	- **Builder (Classic, Fluent, Groovy Style, Facets)** - When piecewise object construction is complicated, provide and API for doing it succinctly.
@@ -26,4 +26,5 @@ Currently contains:
 	- **Proxy** - A class that functions as an interface to a particular resource. That resource may be remote, expensive to construct, may require logging or some other functionality.
  - **Behavioral** patterns:
  	- **Chain of Responsibility (Pointer Chain, Centralized Broker)** - A chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain.
+	- **Command (Classic, Composite)** - An object which represents an instruction to perform a particular action. Contains all information necessary for the action to be taken.
 
