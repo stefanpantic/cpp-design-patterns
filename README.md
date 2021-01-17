@@ -24,4 +24,6 @@ Currently contains:
 	- **Flyweight (Classic, Boost.Flyweight)** - A space optimization technique that lets us use less memory by externally storing the data associated with similar objects.
 	- **Null Object** - A no-op object that satisfies the requirements of some other object.
 	- **Proxy** - A class that functions as an interface to a particular resource. That resource may be remote, expensive to construct, may require logging or some other functionality.
+ - **Behavioral** patterns:
+ 	- **Chain of Responsibility (Pointer Chain, Centralized Broker)** - A chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain.
 
