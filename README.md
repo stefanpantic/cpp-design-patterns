@@ -1,7 +1,8 @@
 # C++ Design Patterns
 
 A multitude of design patterns implemented in modern C++. Structs are used in many places instead of classes to avoid
-dealing with private/public members and just focus on the pattern itself.
+dealing with private/public members and just focus on the pattern itself. I created this repo live coding to the 
+C++ Design Patterns Learning Path by Dmitri Nesteruk on Pluralsight and is intended to be my personal design patterns quick reference.
 Currently contains:
  - Overview and examples of **SOLID** principles:
  	1. **Single-responsibility principle** - A class should only have a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the class.
@@ -11,7 +12,7 @@ Currently contains:
 	5. **Dependency inversion principle** - One should "depend upon abstractions, [not] concretions."
  - The **Maybe** monad
  - **Creational** patterns:
- 	- **Builder (Classic, Fluent, Groovy Style, Facets)** - When piecewise object construction is complicated, provide and API for doing it succinctly.
+ 	- **Builder (Classic, Fluent, Groovy Style, Facets)** - When piecewise object construction is complicated, provide an API for doing it succinctly.
 	- **Factory (Factory Method, Inner Factory, Abstract Factory, Functional Factory)** - A separate component solely responsible for wholesale (not piecewise) creation of objects.
 	- **Prototype (Classic Prototype, Prototype Factory, Boost.Serialization use-case)** - A partially or fully initialized object that you copy (clone) and make use of.
 	- **Singleton (Naive Singleton, Meyers Singleton)** - A component which is instantiated only once.
