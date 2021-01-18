@@ -32,4 +32,5 @@ Currently contains:
 	- **Iterator (STL iterators, Iterator, Boost.IteratorFacade)** - An object that facilitates the traversal of a data structure.
 	- **Memento (Classic, Undo/Redo)** - A token/handle representing the system state. Lets us roll back to the state when the token was generated. May or may not directly expose state information.
 	- **Mediator (Chat Room, Event Broker)** - A component that facilitates communication between other components without them being aware of each other or having (direct) referential access to each other.
+	- **Observer** - An *observer* is an object that wishes to be informed about events happening in the system, typically by providing a callback to call when events occur. The entity generating the events is sometimes called an *observable*.
 
