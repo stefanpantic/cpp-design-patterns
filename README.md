@@ -36,5 +36,5 @@ Currently contains:
 	- **State (State Machine, Boost.MSM)** - A pattern in which the object's behavior is determined by its state. An object transitions from one state to another (something needs to *trigger* the transition). A formalized construct which manages states and constructs is called a *state machine*.
 	- **Stratagy (Dynamic, Static)** - Enables the exact behavior of a system to be selected at either run-time (dynamic) or compile-time (static). Also known as **policy**.
 	- **Template Method** - Allows us define the "skeleton" of an algorithm, with concrete implementations defined in subclasses.
-	- **Visitor ()** - A pattern where a component (visitor) is allowed to traverse the entire inheritance hierarchy. Implemented by propagating a single `visit` function through the entire hierarchy.
+	- **Visitor (Double Dispatch, Multiple Dispatch)** - A pattern where a component (visitor) is allowed to traverse the entire inheritance hierarchy. Implemented by propagating a single `visit` function through the entire hierarchy.
 
