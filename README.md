@@ -1,7 +1,7 @@
 # C++ Design Patterns
 
 A multitude of design patterns implemented in modern C++. Structs are used in many places instead of classes to avoid
-dealing with private/public members and just focus on the pattern itself. I created this repo live coding to the 
+dealing with private/public members and just focus on the pattern itself. I created this repo live coding to the
 C++ Design Patterns Learning Path by Dmitri Nesteruk on Pluralsight and is intended to be my personal design patterns quick reference.
 Currently contains:
  - Overview and examples of **SOLID** principles:
@@ -32,5 +32,6 @@ Currently contains:
 	- **Iterator (STL iterators, Iterator, Boost.IteratorFacade)** - An object that facilitates the traversal of a data structure.
 	- **Memento (Classic, Undo/Redo)** - A token/handle representing the system state. Lets us roll back to the state when the token was generated. May or may not directly expose state information.
 	- **Mediator (Chat Room, Event Broker)** - A component that facilitates communication between other components without them being aware of each other or having (direct) referential access to each other.
-	- **Observer** - An *observer* is an object that wishes to be informed about events happening in the system, typically by providing a callback to call when events occur. The entity generating the events is sometimes called an *observable*.
+	- **Observer (Cannonical, Boost.Signals2)** - An *observer* is an object that wishes to be informed about events happening in the system, typically by providing a callback to call when events occur. The entity generating the events is sometimes called an *observable*.
+	- **State (State Machine, Boost.MSM)** - A pattern in which the object's behavior is determined by its state. An object transitions from one state to another (something needs to *trigger* the transition). A formalized construct which manages states and constructs is called a *state machine*.
 
