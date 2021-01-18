@@ -34,6 +34,7 @@ Currently contains:
 	- **Mediator (Chat Room, Event Broker)** - A component that facilitates communication between other components without them being aware of each other or having (direct) referential access to each other.
 	- **Observer (Cannonical, Boost.Signals2)** - An *observer* is an object that wishes to be informed about events happening in the system, typically by providing a callback to call when events occur. The entity generating the events is sometimes called an *observable*.
 	- **State (State Machine, Boost.MSM)** - A pattern in which the object's behavior is determined by its state. An object transitions from one state to another (something needs to *trigger* the transition). A formalized construct which manages states and constructs is called a *state machine*.
-	- **Stratagy (Dynamic, Static)** - Enables the exact behavior of a system to be selected at either run-time (dynamic) or compile-time (static). Also known as **policy**. 
+	- **Stratagy (Dynamic, Static)** - Enables the exact behavior of a system to be selected at either run-time (dynamic) or compile-time (static). Also known as **policy**.
 	- **Template Method** - Allows us define the "skeleton" of an algorithm, with concrete implementations defined in subclasses.
+	- **Visitor ()** - A pattern where a component (visitor) is allowed to traverse the entire inheritance hierarchy. Implemented by propagating a single `visit` function through the entire hierarchy.
 
