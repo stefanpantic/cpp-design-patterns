@@ -71,3 +71,8 @@ struct Machine : public IMachine
 	}
 };
 
+int main()
+{
+	return 0;
+}
+

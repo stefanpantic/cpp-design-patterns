@@ -35,3 +35,8 @@ struct PersistenceManager
 	}
 };
 
+int main()
+{
+	return 0;
+}
+
