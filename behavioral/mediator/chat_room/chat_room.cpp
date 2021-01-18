@@ -31,7 +31,7 @@ void ChatRoom::message(const std::string& origin, const std::string& dest, const
 {
 	auto it{std::find_if(m_people.begin(), m_people.end(), [&dest] (const auto& p)
 			{
-				return p-m_name == dest;
+				return p->m_name == dest;
 			})};
 
 	if(it != m_people.end())
