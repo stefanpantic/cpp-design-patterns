@@ -71,7 +71,7 @@ struct HtmlBuilder
 	return HtmlBuilder(std::move(name));
 }
 
-/* static */ std::unique_ptr<HtmlBuilder> create(std::string name)
+/* static */ std::unique_ptr<HtmlBuilder> HtmlElement::create(std::string name)
 {
 	return std::make_unique<HtmlBuilder>(std::move(name));
 }
